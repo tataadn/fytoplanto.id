@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Fyto Planto ID</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="assets/img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- MDB -->
+    <link rel="stylesheet" href="assets/css/mdb.min.css" />
+    <link rel="stylesheet" href="assets/css/mdb.form.css" />
+  </head>
+  <body>
+    <!-- Start your project here-->
+    <!-- <section style="background-color: #a6eca8">
+      <div
+        class="container d-flex justify-content-center align-items-center vh-100"
+      >
+        <div class="row d-flex justify-content-center align-items-center h-100">
+          <div class="col col-xl-10">
+            <div class="card" style="border-radius: 1rem">
+              <div class="row g-0">
+                <div class="col-md-6 col-lg-5 d-none d-md-block">
+                  <img
+                    src="assets/img/plant-small.jpg"
+                    alt="login form"
+                    class="img-fluid"
+                    style="border-radius: 1rem 0 0 1rem"
+                  />
+                </div>
+                <div class="col-md-6 col-lg-7 d-flex align-items-center">
+                  <div class="card-body p-4 p-lg-5 text-black">
+                    <form>
+                      <div class="d-flex align-items-center mb-3 pb-1">
+                        <img
+                          src="assets/img/logo-2.png"
+                          style="width: 10%"
+                          alt=""
+                        />
+                        <span class="h1 text-success fw-bold mb-0"
+                          >Fyto Planto ID</span
+                        >
+                      </div>
+                      <h5
+                        class="fw-normal mb-3 pb-3"
+                        style="letter-spacing: 1px"
+                      >
+                        Masuk ke akun Anda
+                      </h5>
+
+                      <div class="form-outline mb-4">
+                        <input
+                          type="email"
+                          id="form2Example17"
+                          class="form-control form-control-lg"
+                        />
+                        <label class="form-label" for="form2Example17"
+                          >Email</label
+                        >
+                      </div>
+
+                      <div class="form-outline mb-4">
+                        <input
+                          type="password"
+                          id="form2Example27"
+                          class="form-control form-control-lg"
+                        />
+                        <label class="form-label" for="form2Example27"
+                          >Password</label
+                        >
+                      </div>
+
+                      <div class="pt-1 mb-4">
+                        <button
+                          class="btn btn-success btn-lg btn-block"
+                          type="button"
+                        >
+                          Login
+                        </button>
+                      </div>
+                      <div class="text-center">
+                        <p>atau daftar dengan:</p>
+                        <button type="button" class="btn btn-floating mx-1">
+                          <i class="fab fa-facebook-f"></i>
+                        </button>
+
+                        <button type="button" class="btn btn-floating mx-1">
+                          <i class="fab fa-google"></i>
+                        </button>
+
+                        <button type="button" class="btn btn-floating mx-1">
+                          <i class="fab fa-twitter"></i>
+                        </button>
+
+                        <button type="button" class="btn btn-floating mx-1">
+                          <i class="fab fa-github"></i>
+                        </button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <section>
+      <div
+        class="bg-image"
+        style="background-image: url('assets/img/plant.jpg')"
+      >
+        <div style="background-color: rgba(1, 78, 32, 0.514)">
+          <div class="container py-5">
+            <div
+              class="row py-5 d-flex justify-content-center align-items-center"
+            >
+              <div class="col-md-6">
+                <div class="card">
+                  <div class="card-body">
+                    <!-- Pills navs -->
+                    <ul
+                      class="nav nav-pills nav-justified mb-3"
+                      id="ex1"
+                      role="tablist"
+                    >
+                      <li class="nav-item" role="presentation">
+                        <a
+                          class="nav-link active"
+                          id="tab-login"
+                          data-mdb-toggle="pill"
+                          href="#pills-login"
+                          role="tab"
+                          aria-controls="pills-login"
+                          aria-selected="true"
+                          >Login</a
+                        >
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <a
+                          class="nav-link"
+                          id="tab-register"
+                          data-mdb-toggle="pill"
+                          href="#pills-register"
+                          role="tab"
+                          aria-controls="pills-register"
+                          aria-selected="false"
+                          >Register</a
+                        >
+                      </li>
+                    </ul>
+                    <!-- Pills navs -->
+
+                    <!-- Pills content -->
+                    <div class="tab-content">
+                      <div
+                        class="tab-pane fade show active"
+                        id="pills-login"
+                        role="tabpanel"
+                        aria-labelledby="tab-login"
+                      >
+                        <form>
+                          <div class="text-center mb-3">
+                            <p>Sign in with:</p>
+                            <button
+                              type="button"
+                              class="btn btn-link btn-floating mx-1"
+                            >
+                              <i class="fab fa-facebook-f"></i>
+                            </button>
+
+                            <button
+                              type="button"
+                              class="btn btn-link btn-floating mx-1"
+                            >
+                              <i class="fab fa-google"></i>
+                            </button>
+                          </div>
+
+                          <p class="text-center">or:</p>
+
+                          <!-- Email input -->
+                          <div class="form-outline mb-4">
+                            <input
+                              type="email"
+                              id="loginName"
+                              class="form-control"
+                            />
+                            <label class="form-label" for="loginName"
+                              >Email or username</label
+                            >
+                          </div>
+
+                          <!-- Password input -->
+                          <div class="form-outline mb-4">
+                            <input
+                              type="password"
+                              id="loginPassword"
+                              class="form-control"
+                            />
+                            <label class="form-label" for="loginPassword"
+                              >Password</label
+                            >
+                          </div>
+
+                          <!-- Submit button -->
+                          <button
+                            type="submit"
+                            class="btn btn-primary btn-block mb-4"
+                          >
+                            Sign in
+                          </button>
+                        </form>
+                      </div>
+                      <div
+                        class="tab-pane fade"
+                        id="pills-register"
+                        role="tabpanel"
+                        aria-labelledby="tab-register"
+                      >
+                        <form>
+                          <div class="text-center mb-3">
+                            <p>Sign up with:</p>
+                            <button
+                              type="button"
+                              class="btn btn-link btn-floating mx-1"
+                            >
+                              <i class="fab fa-facebook-f"></i>
+                            </button>
+
+                            <button
+                              type="button"
+                              class="btn btn-link btn-floating mx-1"
+                            >
+                              <i class="fab fa-google"></i>
+                            </button>
+                          </div>
+
+                          <p class="text-center">or:</p>
+
+                          <!-- Name input -->
+                          <div class="form-outline mb-4">
+                            <input
+                              type="text"
+                              id="registerName"
+                              class="form-control"
+                            />
+                            <label class="form-label" for="registerName"
+                              >Name</label
+                            >
+                          </div>
+
+                          <!-- Username input -->
+                          <div class="form-outline mb-4">
+                            <input
+                              type="text"
+                              id="registerUsername"
+                              class="form-control"
+                            />
+                            <label class="form-label" for="registerUsername"
+                              >Username</label
+                            >
+                          </div>
+
+                          <!-- Email input -->
+                          <div class="form-outline mb-4">
+                            <input
+                              type="email"
+                              id="registerEmail"
+                              class="form-control"
+                            />
+                            <label class="form-label" for="registerEmail"
+                              >Email</label
+                            >
+                          </div>
+
+                          <!-- Password input -->
+                          <div class="form-outline mb-4">
+                            <input
+                              type="password"
+                              id="registerPassword"
+                              class="form-control"
+                            />
+                            <label class="form-label" for="registerPassword"
+                              >Password</label
+                            >
+                          </div>
+
+                          <!-- Repeat Password input -->
+                          <div class="form-outline mb-4">
+                            <input
+                              type="password"
+                              id="registerRepeatPassword"
+                              class="form-control"
+                            />
+                            <label
+                              class="form-label"
+                              for="registerRepeatPassword"
+                              >Repeat password</label
+                            >
+                          </div>
+
+                          <!-- Submit button -->
+                          <button
+                            type="submit"
+                            class="btn btn-primary btn-block mb-3"
+                          >
+                            register
+                          </button>
+                        </form>
+                      </div>
+                    </div>
+                    <!-- Pills content -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End your project here-->
+
+    <!-- MDB -->
+    <script type="text/javascript" src="assets/js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+    <!-- JS AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
