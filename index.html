@@ -9,7 +9,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <title>Fyto Planto ID</title>
     <!-- MDB icon -->
-    <link rel="icon" href="assets/img/mdb-favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="assets/img/logo-2.png" type="image/x-icon" />
     <!-- Font Awesome -->
     <link
       rel="stylesheet"
@@ -575,7 +575,9 @@
     <section id="pendaftaran" class="pt-5">
       <div class="container pb-5">
         <div class="row py-5 d-flex align-items-center justify-content-center">
-          <h1 class="pb-4 text-center">Pendaftaran</h1>
+          <h1 class="display-5 fw-bold pb-4 text-center text-success">
+            Pendaftaran
+          </h1>
           <div class="col-md-4 my-2">
             <div class="card border border-success text-center">
               <div class="card-body">
@@ -627,7 +629,7 @@
                           </div>
 
                           <!-- Email input -->
-                          <div class="form-outline mb-4">
+                          <div class="form-outline mb-2">
                             <input
                               type="email"
                               id="email2"
@@ -638,15 +640,15 @@
                             >
                           </div>
 
+                          <label class="form-label" for="customFile"
+                            >Foto KTP</label
+                          >
                           <div class="form-outline mb-4">
                             <input
-                              type="email"
-                              id="email2"
+                              type="file"
                               class="form-control"
+                              id="customFile"
                             />
-                            <label class="form-label" for="email2"
-                              >Pendidikan Terakhir</label
-                            >
                           </div>
 
                           <!-- password input -->
@@ -751,6 +753,20 @@
                             >
                           </div>
 
+                          <label class="form-label" for="customFile"
+                            ><small
+                              >Bukti transfer (apabila berdonasi dengan transfer
+                              ke rekening kami)</small
+                            ></label
+                          >
+                          <div class="form-outline mb-4">
+                            <input
+                              type="file"
+                              class="form-control"
+                              id="customFile"
+                            />
+                          </div>
+
                           <div class="form-outline mb-4">
                             <input
                               type="number"
@@ -775,6 +791,97 @@
                   </div>
                 </div>
                 <!-- Modal -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row py-5 d-flex align-items-center justify-content-center">
+          <h1 class="display-5 fw-bold pb-4 text-center text-success">
+            Menyalurkan donasi :
+          </h1>
+          <div class="col-md-6 my-2">
+            <div class="card border border-success text-center">
+              <div class="card-body">
+                <!-- Tabs navs -->
+                <ul
+                  class="nav justify-content-center align-items-center nav-tabs mb-3"
+                  id="ex-with-icons"
+                  role="tablist"
+                >
+                  <li class="nav-item" role="presentation">
+                    <a
+                      class="nav-link active"
+                      id="ex-with-icons-tab-1"
+                      data-mdb-toggle="tab"
+                      href="#ex-with-icons-tabs-1"
+                      role="tab"
+                      aria-controls="ex-with-icons-tabs-1"
+                      aria-selected="true"
+                      ><i
+                        class="fas fa-money-bill-wave-alt fa-2x fa-fw me-2"
+                      ></i
+                      >Dalam Bentuk Uang</a
+                    >
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <a
+                      class="nav-link"
+                      id="ex-with-icons-tab-2"
+                      data-mdb-toggle="tab"
+                      href="#ex-with-icons-tabs-2"
+                      role="tab"
+                      aria-controls="ex-with-icons-tabs-2"
+                      aria-selected="false"
+                      ><i class="fab fa-pagelines fa-fw fa-2x me-2"></i>Dalam
+                      Bentuk Bibit</a
+                    >
+                  </li>
+                </ul>
+                <!-- Tabs navs -->
+
+                <!-- Tabs content -->
+                <div class="tab-content" id="ex-with-icons-content">
+                  <div
+                    class="tab-pane fade show active"
+                    id="ex-with-icons-tabs-1"
+                    role="tabpanel"
+                    aria-labelledby="ex-with-icons-tab-1"
+                  >
+                    <h6 class="text-success">
+                      Donasi dapat disalurkan melalui rekening berikut :
+                    </h6>
+                    <p>
+                      <b>BRI</b> : 1234567890 (Agus Widyadhana) <br />
+                      <b>Mandiri</b> : 215317712882 (Agus Widyadhana)
+                    </p>
+                    <br />
+                    <h6 class="text-success">
+                      <b>Atau datang langsung ke lokasi kami: </b>
+                    </h6>
+                    Jl. Ahmad Yani, A-21, Blitar, Jawa Timur
+                  </div>
+                  <div
+                    class="tab-pane fade"
+                    id="ex-with-icons-tabs-2"
+                    role="tabpanel"
+                    aria-labelledby="ex-with-icons-tab-2"
+                  >
+                    <h6 class="text-success">
+                      <b>Datang langsung ke lokasi kami: </b>
+                    </h6>
+                    Jl. Ahmad Yani, A-21, Blitar, Jawa Timur
+                    <br />
+                    <br />
+                    <h6 class="text-success">
+                      <b
+                        >Atau kami datang ke lokasi anda (minimal 50 bibit)
+                        dengan menghubungi kami: <br
+                      /></b>
+                    </h6>
+                    No WA : 081234567890
+                  </div>
+                </div>
+                <!-- Tabs content -->
               </div>
             </div>
           </div>
@@ -890,6 +997,63 @@
                       Selain itu, relawan Fyto Planto ID juga akan mendapatkan
                       sertifikat sebagai bukti keikutsertaan relawan Fyto Planto
                       ID.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingFourY">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-mdb-toggle="collapse"
+                      data-mdb-target="#collapseFourY"
+                      aria-expanded="false"
+                      aria-controls="collapseFourY"
+                    >
+                      <i
+                        class="fas fa-question-circle fa-sm me-2 opacity-70"
+                      ></i
+                      >Bagaimana alur pendaftaran relawan?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseFourY"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingFourY"
+                    data-mdb-parent="#accordionExampleY"
+                  >
+                    <div class="accordion-body">
+                      Setelah mengisi form, akan kami hubungi melalui email
+                      untuk proses lebih lanjut jika anda masuk kriteria relawan
+                      Fyto Planto
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingFiveY">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-mdb-toggle="collapse"
+                      data-mdb-target="#collapseFiveY"
+                      aria-expanded="false"
+                      aria-controls="collapseFiveY"
+                    >
+                      <i
+                        class="fas fa-question-circle fa-sm me-2 opacity-70"
+                      ></i
+                      >Bagaimana alur pendaftaran donasi?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseFiveY"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingFiveY"
+                    data-mdb-parent="#accordionExampleY"
+                  >
+                    <div class="accordion-body">
+                      Setelah mengisi form, akan kami hubungi melalui email
+                      untuk proses lebih lanjut.
                     </div>
                   </div>
                 </div>
