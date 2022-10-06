@@ -1,0 +1,33 @@
+/* Color of the links BEFORE scroll */
+.navbar-scroll .nav-link,
+.navbar-scroll .fa-bars,
+.navbar-scroll .navar-brand {
+  color: #4f4f4f;
+}
+
+.navbar-scroll .nav-link:hover {
+  color: #14a44d;
+}
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .fa-bars,
+.navbar-scrolled .navar-brand {
+  color: #4f4f4f;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scroll,
+.navbar-scrolled {
+  background-color: #fff;
+}
+
+/* An optional height of the navbar AFTER scroll */
+.navbar.navbar-scroll.navbar-scrolled {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.shadow-custom {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25), 0 3px 12px 6px rgba(0, 0, 0, 0.2) !important;
+}
